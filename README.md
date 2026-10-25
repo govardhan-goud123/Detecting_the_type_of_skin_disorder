@@ -1,36 +1,33 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,15:172554,35:312e81,60:6d28d9,80:0891b2,100:22d3ee&height=260&section=header&text=SKIN%20DISORDER%20AI&fontSize=46&fontColor=ffffff&fontAlignY=35&animation=fadeIn&desc=INTELLIGENT%20DERMATOLOGY%20CLASSIFICATION%20SYSTEM&descAlignY=58&descSize=16" alt="Animated Skin Disorder AI Banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,20:172554,45:312e81,70:6d28d9,100:06b6d4&height=260&section=header&text=SKIN%20DISORDER%20AI&fontSize=46&fontColor=ffffff&fontAlignY=35&animation=fadeIn&desc=ADVANCED%20MEDICAL%20DATA%20INTELLIGENCE&descAlignY=58&descSize=16" alt="Skin Disorder AI Banner"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2200&pause=600&color=22D3EE&center=true&vCenter=true&width=900&lines=INITIALIZING+DERMATOLOGY+INTELLIGENCE;ANALYZING+34+PATIENT+FEATURES;EXPLORING+6+SKIN+DISEASE+CLASSES;TRAINING+6+MACHINE+LEARNING+MODELS;COMPARING+PREDICTION+PERFORMANCE;TRANSFORMING+MEDICAL+DATA+INTO+INSIGHTS" alt="Animated Project Title"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2200&pause=500&color=22D3EE&center=true&vCenter=true&width=900&lines=INITIALIZING+SKIN+DISORDER+INTELLIGENCE;ANALYZING+DERMATOLOGY+DATA;EXPLORING+SIX+DISEASE+CLASSES;TRAINING+MACHINE+LEARNING+MODELS;EVALUATING+PREDICTIVE+PERFORMANCE;TURNING+DATA+INTO+INSIGHTS" alt="Animated Project Introduction"/>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/PROJECT-PRCP--1027-22D3EE?style=for-the-badge&labelColor=020617" alt="Project ID"/>
-<img src="https://img.shields.io/badge/DOMAIN-HEALTHCARE_AI-7C3AED?style=for-the-badge&labelColor=020617" alt="Healthcare AI"/>
-<img src="https://img.shields.io/badge/TASK-6_CLASS_CLASSIFICATION-0891B2?style=for-the-badge&labelColor=020617" alt="Six Class Classification"/>
-<img src="https://img.shields.io/badge/ALGORITHMS-6_MODELS-2563EB?style=for-the-badge&labelColor=020617" alt="Six Models"/>
+<img src="https://img.shields.io/badge/PROJECT-PRCP--1027-22D3EE?style=for-the-badge&labelColor=020617"/>
+<img src="https://img.shields.io/badge/DOMAIN-HEALTHCARE_AI-8B5CF6?style=for-the-badge&labelColor=020617"/>
+<img src="https://img.shields.io/badge/TASK-MULTICLASS_CLASSIFICATION-0891B2?style=for-the-badge&labelColor=020617"/>
+<img src="https://img.shields.io/badge/PLATFORM-JUPYTER-2563EB?style=for-the-badge&labelColor=020617"/>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/PYTHON-MACHINE_LEARNING-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/PANDAS-DATA_ANALYSIS-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
-<img src="https://img.shields.io/badge/SCIKIT--LEARN-MODEL_TRAINING-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
-<img src="https://img.shields.io/badge/JUPYTER-EXPERIMENTATION-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
 
 <br/><br/>
 
-**34 INPUT FEATURES. SIX DISEASE CLASSES. SIX CLASSIFICATION ALGORITHMS. ONE COMPARATIVE MACHINE LEARNING WORKFLOW.**
+**34 FEATURES · 6 DISEASE CLASSES · 6 MACHINE LEARNING ALGORITHMS**
 
 <br/>
 
-<a href="#01-project-overview">PROJECT OVERVIEW</a>
-  |   <a href="#02-system-architecture">ARCHITECTURE</a>
-  |   <a href="#08-machine-learning-laboratory">ML LABORATORY</a>
-  |   <a href="#12-performance-intelligence-dashboard">PERFORMANCE</a>
-  |   <a href="#18-future-development">ROADMAP</a>
+<a href="#01-project-overview">OVERVIEW</a>   ◈   <a href="#02-system-architecture">ARCHITECTURE</a>   ◈   <a href="#06-machine-learning-laboratory">ML LAB</a>   ◈   <a href="#10-performance-analysis">PERFORMANCE</a>   ◈   <a href="#16-future-development">ROADMAP</a>
 
 </div>
 
@@ -38,191 +35,186 @@
 
 # 01. Project Overview
 
-## Engineering Intelligence for Skin Disorder Classification
+## Intelligent Skin Disorder Classification
 
-Skin disorders can exhibit overlapping clinical and histopathological characteristics. Analyzing these characteristics systematically can help researchers investigate patterns in medical data and evaluate machine learning approaches to disease classification.
+Skin disorders may share similar clinical characteristics, making classification a challenging problem.
 
-This project, **PRCP-1027 — Skin Disorder Prediction**, implements a complete data analysis and machine learning classification workflow using a dermatology dataset containing 366 patient records and 34 input attributes, as described in the project notebook.
+This project explores how machine learning algorithms can analyze structured dermatology data and classify observations into six disease categories.
 
-The system analyzes clinical and histopathological features, prepares the dataset for classification, trains six machine learning algorithms, and compares their predictive performance.
+The project follows a complete data science workflow, including data loading, data cleaning, exploratory data analysis, feature preparation, model training, performance evaluation, and model interpretation.
 
-The target contains six skin-disease classes.
+The objective is to compare different machine learning algorithms and understand their strengths and weaknesses on a multiclass classification problem.
 
-The model comparison uses accuracy, macro precision, macro recall, and macro F1-score. A production candidate is selected using the highest macro F1-score on the held-out test set.
+### Project Objectives
 
-The notebook also includes class-wise performance analysis, confusion matrices, feature-importance analysis, example predictions, and suggestions for responsible clinical decision support.
+**Medical Data Analysis**
 
-### Project Mission
+Explore the structure, quality, and distribution of dermatology records.
 
-Build a reproducible machine learning workflow that demonstrates how structured dermatology data can be analyzed and used to compare multiclass classification models.
+**Feature Investigation**
 
-### Core Objectives
+Study clinical and histopathological attributes to understand patterns in the dataset.
 
-**Medical data intelligence**
+**Machine Learning**
 
-Investigate the structure, quality, distribution, and statistical characteristics of dermatology records.
+Train and compare six classification algorithms.
 
-**Clinical feature analysis**
+**Performance Evaluation**
 
-Explore the relationships between clinical attributes, histopathological attributes, age, and the target disease classes.
+Measure accuracy, precision, recall, and F1-score.
 
-**Multiclass classification**
+**Model Interpretation**
 
-Train and compare six machine learning algorithms using a common train-test split.
+Analyze classification reports, confusion matrices, and feature importance.
 
-**Performance evaluation**
+**Responsible AI**
 
-Assess overall and class-wise model behavior using multiple classification metrics.
+Understand why model predictions require careful interpretation, especially in healthcare applications.
 
-**Model interpretation**
+## Project Highlights
 
-Examine feature importance and confusion matrices to better understand the selected model's predictions.
+| Component            | Description                      |
+| -------------------- | -------------------------------- |
+| Project ID           | PRCP-1027                        |
+| Project Name         | Skin Disorder Prediction         |
+| Domain               | Healthcare and Data Science      |
+| Problem Type         | Multiclass Classification        |
+| Dataset Records      | 366, as described in the project |
+| Input Features       | 34                               |
+| Target Classes       | 6                                |
+| Algorithms           | 6                                |
+| Development Tool     | Jupyter Notebook                 |
+| Programming Language | Python                           |
 
-**Responsible decision support**
-
-Document how predictions might support further assessment while recognizing that the model is not a clinically validated diagnostic system.
+The actual number of records remaining after cleaning should be confirmed from the executed notebook.
 
 ---
 
 # 02. System Architecture
 
-## Inside the Skin Disorder Intelligence Pipeline
+## From Raw Data to Machine Learning Intelligence
 
-The project follows a structured workflow that transforms raw patient records into evaluated classification models.
+The project transforms raw dermatology records into evaluated classification models through a structured workflow.
 
 ```mermaid
 flowchart TD
 
     A["Dermatology Dataset"] --> B["Data Loading"]
     B --> C["Data Inspection"]
-    C --> D["Missing Value Analysis"]
+    C --> D["Missing Value Handling"]
+    D --> E["Duplicate Checking"]
+    E --> F["Exploratory Data Analysis"]
 
-    D --> E["Data Cleaning"]
-    E --> F["Duplicate Record Check"]
-    F --> G["Exploratory Data Analysis"]
+    F --> G["Clinical Feature Analysis"]
+    F --> H["Histopathological Analysis"]
+    F --> I["Disease Class Distribution"]
 
-    G --> H["Class Distribution Analysis"]
-    G --> I["Age Analysis"]
-    G --> J["Clinical Feature Analysis"]
-    G --> K["Histopathological Analysis"]
+    G --> J["Feature Preparation"]
+    H --> J
+    I --> J
 
-    H --> L["Feature Preparation"]
-    I --> L
-    J --> L
-    K --> L
+    J --> K["Stratified Train-Test Split"]
 
-    L --> M["Stratified Train-Test Split"]
-    M --> N["Machine Learning Pipelines"]
+    K --> L["Logistic Regression"]
+    K --> M["K-Nearest Neighbors"]
+    K --> N["Decision Tree"]
+    K --> O["Random Forest"]
+    K --> P["Support Vector Machine"]
+    K --> Q["Gradient Boosting"]
 
-    N --> O["Logistic Regression"]
-    N --> P["K-Nearest Neighbors"]
-    N --> Q["Decision Tree"]
-    N --> R["Random Forest"]
-    N --> S["Support Vector Machine"]
-    N --> T["Gradient Boosting"]
+    L --> R["Model Evaluation"]
+    M --> R
+    N --> R
+    O --> R
+    P --> R
+    Q --> R
 
-    O --> U["Model Evaluation"]
-    P --> U
-    Q --> U
-    R --> U
-    S --> U
-    T --> U
+    R --> S["Performance Comparison"]
+    S --> T["Model Selection"]
+    T --> U["Confusion Matrix"]
+    T --> V["Feature Importance"]
+    T --> W["Example Predictions"]
 
-    U --> V["Accuracy and Macro Metrics"]
-    V --> W["Model Comparison"]
+    U --> X["Final Analysis"]
+    V --> X
+    W --> X
 
-    W --> X["Select Highest Macro F1"]
-    X --> Y["Confusion Matrix"]
-    X --> Z["Class-Wise Evaluation"]
-    X --> AA["Example Predictions"]
-
-    Y --> AB["Final Project Report"]
-    Z --> AB
-    AA --> AB
-
-    classDef data fill:#082f49,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
-    classDef analysis fill:#172554,stroke:#818cf8,color:#ffffff,stroke-width:2px;
+    classDef input fill:#082f49,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef process fill:#172554,stroke:#818cf8,color:#ffffff,stroke-width:2px;
     classDef model fill:#312e81,stroke:#c4b5fd,color:#ffffff,stroke-width:2px;
     classDef output fill:#064e3b,stroke:#34d399,color:#ffffff,stroke-width:2px;
 
-    class A,B,C,D,E,F data;
-    class G,H,I,J,K,L,M analysis;
-    class N,O,P,Q,R,S,T,U,V,W,X model;
-    class Y,Z,AA,AB output;
+    class A,B,C,D,E input;
+    class F,G,H,I,J,K process;
+    class L,M,N,O,P,Q,R,S,T model;
+    class U,V,W,X output;
 ```
 
-### Architecture Breakdown
+### Workflow Stages
 
-**Stage 1 — Data ingestion**
+**Stage 1 — Data Collection**
 
-Load the dermatology CSV file into a Pandas DataFrame and inspect its dimensions and columns.
+Load the dermatology dataset into a Pandas DataFrame.
 
-**Stage 2 — Data quality**
+**Stage 2 — Data Cleaning**
 
-Identify missing values, convert invalid age markers into proper missing values, impute missing ages, and check duplicate records.
+Identify missing values, handle missing age entries, and check duplicate records.
 
-**Stage 3 — Exploratory analysis**
+**Stage 3 — Exploratory Analysis**
 
-Investigate the distribution of disease classes, age patterns, clinical features, and histopathological features.
+Examine the target distribution and investigate clinical and histopathological features.
 
-**Stage 4 — Feature preparation**
+**Stage 4 — Feature Preparation**
 
-Separate the target column from the input features and prepare the data for model training.
+Separate the input features from the target labels.
 
-**Stage 5 — Model training**
+**Stage 5 — Model Training**
 
-Train six classification algorithms using the same stratified training and testing subsets.
+Train six machine learning classifiers using the prepared data.
 
-**Stage 6 — Model evaluation**
+**Stage 6 — Model Evaluation**
 
-Calculate accuracy, macro precision, macro recall, and macro F1-score.
+Calculate multiple classification metrics.
 
-**Stage 7 — Model interpretation**
+**Stage 7 — Model Interpretation**
 
-Examine class-wise classification results, confusion matrices, feature importance, and example predictions.
+Investigate model errors, class-wise performance, and feature importance.
 
-**Stage 8 — Final reporting**
+**Stage 8 — Final Analysis**
 
-Summarize the selected model and document the limitations and responsible use of its predictions.
+Summarize the comparative results and limitations.
 
 ---
 
 # 03. Dataset Intelligence
 
-## Understanding the Medical Feature Space
+## Understanding the Dermatology Dataset
 
-The project uses a dermatology dataset containing 366 patient records and 34 input attributes, according to the project notebook's description.
+The project description identifies a dataset containing 366 records and 34 input attributes.
 
-The target variable is named `class`.
+The target column is named `class`, which identifies the disease category associated with each record.
 
-Each record is associated with one of six disease classes.
+The input features contain clinical and histopathological information.
 
-### Dataset Profile
+### Dataset Summary
 
-| Property                       | Description                              |
-| ------------------------------ | ---------------------------------------- |
-| Dataset                        | Dermatology dataset                      |
-| Records in project description | 366                                      |
-| Input attributes               | 34                                       |
-| Target column                  | `class`                                  |
-| Number of target classes       | 6                                        |
-| Clinical attributes            | 11, according to the project description |
-| Histopathological attributes   | 22, according to the project description |
-| Age                            | Linear-valued feature                    |
-| Family history                 | Binary feature represented using 0 and 1 |
-| Development environment        | Jupyter Notebook                         |
-| Data processing                | Pandas and NumPy                         |
-| Classification framework       | Scikit-learn                             |
+| Attribute                  | Description                              |
+| -------------------------- | ---------------------------------------- |
+| Records                    | 366 in the project description           |
+| Input Features             | 34                                       |
+| Target Column              | `class`                                  |
+| Classification Classes     | 6                                        |
+| Clinical Features          | 11, according to the project description |
+| Histopathological Features | 22, according to the project description |
+| Age                        | Numerical feature                        |
+| Family History             | Binary feature                           |
+| Learning Type              | Supervised Learning                      |
 
-The 34 input attributes include the age feature and the other clinical and histopathological attributes described in the notebook.
+### Six Disease Classes
 
-The actual dataset dimensions after cleaning should be taken from the notebook's execution output because duplicate removal can change the final record count.
+The notebook uses the following disease-class mapping.
 
-### The Six Disease Classes
-
-The notebook maps the six target class IDs to the following disease names.
-
-| Class ID | Disease Name             |
+| Class ID | Disease                  |
 | -------: | ------------------------ |
 |        1 | Psoriasis                |
 |        2 | Seboreic dermatitis      |
@@ -231,409 +223,306 @@ The notebook maps the six target class IDs to the following disease names.
 |        5 | Cronic dermatitis        |
 |        6 | Pityriasis rubra pilaris |
 
-These labels follow the terminology in the supplied project notebook.
+The names above follow the terminology in the project description. They can be updated if the notebook uses different spellings.
 
-The class IDs are used as classification targets. The model learns to predict one of the represented categories based on the available input features.
+### Clinical Features
 
-### Clinical Attributes
+Clinical features represent patient characteristics and clinical observations recorded in the dataset.
 
-Clinical attributes describe the patient characteristics and clinical observations represented in the dataset.
+The project investigates average clinical feature values across disease classes to explore patterns in the observations.
 
-The notebook examines the average values of the clinical features across disease classes.
+### Histopathological Features
 
-This analysis helps investigate whether the classes display different patterns in the available clinical measurements.
+Histopathological features provide additional diagnostic information represented in the dataset.
 
-### Histopathological Attributes
+Analyzing these variables helps explore how the recorded disease categories differ in their feature values.
 
-Histopathological attributes represent additional diagnostic information recorded in the dataset.
-
-The notebook compares average histopathological feature values across the six target classes.
-
-These comparisons help explore differences in the dataset but do not establish that an individual feature causes a particular disease.
+These patterns are exploratory and do not establish medical causation.
 
 ---
 
-# 04. Data Cleaning and Quality Control
+# 04. Data Cleaning and Preprocessing
 
-## Building a Reliable Input Dataset
+## Preparing Reliable Input Data
 
-The notebook performs several data preparation steps before training the classification models.
+Data quality is an important part of machine learning.
 
-### Missing Age Values
+The project performs preprocessing before fitting the classification models.
 
-The dataset represents some missing age values using the character `?`.
+### Missing Value Handling
 
-These values cannot be treated as ordinary numerical observations.
+Some age values are represented by `?`.
 
-The notebook converts `?` to missing values and fills missing ages using the median of the available patient ages.
+The notebook converts these markers into missing values and uses median imputation to fill missing ages.
 
-Median imputation provides a straightforward way to retain records with missing age information.
+Median imputation helps retain records that would otherwise contain an unusable age value.
 
-### Duplicate Records
+### Duplicate Checking
 
-Duplicate rows are checked during preprocessing.
+Duplicate records are checked during preprocessing.
 
-If duplicates are present, the notebook removes them and resets the DataFrame index.
-
-This reduces the risk of repeated records influencing the model comparison.
+If duplicate rows are present, they are removed before the subsequent analysis.
 
 ### Target Separation
 
-The `class` column is retained as the prediction target.
+The input features and target column are separated.
 
-All other columns are used as input features.
-
-No patient name or ID is used as a predictor in the notebook's feature preparation.
-
-### Feature Imputation
-
-The model pipelines use `SimpleImputer` with median imputation for numerical input features.
-
-This allows the training and prediction pipelines to handle missing numerical values consistently.
-
-### Feature Scaling
-
-Some algorithms are sensitive to the scale of their input features.
-
-For example, age may have a larger numerical range than features represented using values from 0 to 3.
-
-The notebook uses `StandardScaler` inside pipelines for algorithms that benefit from scaled input features.
-
-Scaling is performed within the pipeline so the scaler is fitted using the training data rather than the complete dataset.
-
-### Why a Pipeline Matters
-
-A Scikit-learn Pipeline combines preprocessing steps and a model into one consistent workflow.
-
-This reduces the chance of accidentally applying different preprocessing during training and prediction.
-
-It also makes the model comparison more systematic because each algorithm can be trained and evaluated using its corresponding pipeline.
-
----
-
-# 05. Exploratory Data Analysis
-
-## Discovering Patterns Across Six Disease Classes
-
-Exploratory Data Analysis provides an overview of the dataset before predictive modeling begins.
-
-The notebook examines class distributions, age patterns, clinical feature averages, and histopathological feature averages.
-
-### Class Distribution Analysis
-
-The distribution of the six target classes is examined before training.
-
-Class imbalance matters because some disease classes may contain more records than others.
-
-If one class dominates the dataset, a model might obtain reasonable overall accuracy while performing poorly on less frequent classes.
-
-This is one reason the project evaluates macro-averaged precision, recall, and F1-score.
-
-### Age Distribution Analysis
-
-The notebook investigates age-related patterns in the dataset.
-
-Age distributions can be compared across the disease classes to explore whether the available records exhibit differences in age.
-
-These observations describe the dataset and should not be interpreted as population-wide epidemiological conclusions.
-
-### Clinical Feature Analysis
-
-The notebook examines average clinical feature values across the six disease classes.
-
-This provides a comparative view of the clinical information represented in the dataset.
-
-### Histopathological Feature Analysis
-
-The histopathological analysis compares feature averages across disease classes.
-
-The results help identify variables that differ across the recorded classes and may be useful for further model interpretation.
-
-### Data Summary
-
-Descriptive statistics help characterize the numerical features.
-
-The analysis can reveal unusual values, differences in feature scales, and patterns that deserve additional inspection.
-
-The actual charts and numerical summaries are generated by executing the notebook.
-
----
-
-# 06. Feature Engineering and Preparation
-
-## From Medical Attributes to Model Inputs
-
-The notebook separates the input matrix and target vector.
-
-Conceptually, the operation is:
+Conceptually, this operation is:
 
 ```python
 X = df_clean.drop("class", axis=1)
 y = df_clean["class"]
 ```
 
-`X` contains the patient features used by the classifiers.
+`X` contains the model input features.
 
-`y` contains the six-class target labels.
+`y` contains the disease-class labels.
 
-### Feature Preparation Workflow
+### Feature Scaling
 
-```mermaid
-flowchart LR
+Some algorithms depend on distances or feature magnitudes.
 
-    A["Cleaned Patient Data"] --> B["Separate Input Features"]
-    A --> C["Extract Target Class"]
+StandardScaler standardizes numerical features using statistics learned from the training data.
 
-    B --> D["Numerical Feature Matrix"]
-    C --> E["Six-Class Target"]
+The notebook includes scaling in the pipelines for algorithms that benefit from it.
 
-    D --> F["Train-Test Split"]
-    E --> F
+### Pipeline-Based Preprocessing
 
-    F --> G["Training Features"]
-    F --> H["Testing Features"]
+A Scikit-learn Pipeline connects preprocessing and classification into one workflow.
 
-    G --> I["Fit Model Pipeline"]
-    H --> J["Evaluate Predictions"]
-
-    I --> K["Trained Classifier"]
-    K --> J
-
-    classDef data fill:#082f49,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
-    classDef transform fill:#312e81,stroke:#a5b4fc,color:#ffffff,stroke-width:2px;
-    classDef output fill:#064e3b,stroke:#34d399,color:#ffffff,stroke-width:2px;
-
-    class A,B,C data;
-    class D,E,F,G,H transform;
-    class I,J,K output;
-```
-
-### Stratified Train-Test Split
-
-The notebook uses an 80:20 stratified train-test split.
-
-Stratification helps preserve approximately the same relative distribution of disease classes in both subsets.
-
-The training set is used to fit the models.
-
-The testing set is held out for the notebook's model evaluation.
-
-Using the same split across the six algorithms helps make the comparison more consistent.
-
-However, selecting a model based on test-set performance means the test set also influences the model-selection decision. A separate validation set or nested cross-validation would provide a stronger estimate of generalization if the project were extended.
+This improves consistency between training and prediction and helps reduce data leakage caused by fitting preprocessing steps on the complete dataset.
 
 ---
 
-# 07. Machine Learning Laboratory
+# 05. Exploratory Data Analysis
 
-## Six Algorithms. One Consistent Evaluation Framework.
+## Discovering Patterns Before Training
 
-The notebook compares six machine learning classification algorithms.
+Exploratory Data Analysis helps reveal the characteristics of the dataset before model development.
 
-Each algorithm learns the relationship between the patient feature values and the six disease classes.
+The project investigates several aspects of the medical data.
 
-### Model 01 — Logistic Regression
+### Disease Class Distribution
 
-Logistic Regression is a classification algorithm that estimates class probabilities using a linear decision structure.
+The class distribution reveals how many observations belong to each disease category.
 
-For multiclass problems, it can estimate the probability associated with each class and choose the most likely prediction.
+Unequal class frequencies can affect classification performance.
 
-It provides a useful baseline against which more flexible algorithms can be compared.
+Macro-averaged metrics are useful because they give each class equal weight in the final average.
 
-The notebook uses an increased iteration limit to support model convergence.
+### Age Analysis
 
-### Model 02 — K-Nearest Neighbors
+Age analysis explores the distribution of patient ages and differences between the recorded disease categories.
 
-K-Nearest Neighbors classifies a record using nearby training observations.
+These patterns describe the dataset and should not be interpreted as population-wide medical conclusions.
+
+### Clinical Feature Analysis
+
+Clinical features are examined to understand their distributions and average values across the disease classes.
+
+### Histopathological Feature Analysis
+
+Histopathological features are analyzed to explore differences between the six target categories.
+
+### Statistical Analysis
+
+Descriptive statistics help identify feature ranges, unusual values, and differences in the numerical attributes.
+
+The notebook generates the actual charts and summaries when executed.
+
+---
+
+# 06. Machine Learning Laboratory
+
+## Six Algorithms. One Classification Problem.
+
+The project compares six machine learning algorithms.
+
+Each algorithm uses the input features to predict one of the six disease classes.
+
+### 01. Logistic Regression
+
+Logistic Regression provides a baseline classification model.
+
+It estimates class probabilities using a linear decision structure.
+
+Its performance provides a useful reference for comparison with more flexible models.
+
+### 02. K-Nearest Neighbors
+
+K-Nearest Neighbors classifies observations using nearby training records.
 
 The notebook configures five neighbors.
 
-Feature scaling is important because distance-based algorithms can be affected by differences in feature magnitude.
+Because KNN uses distances between observations, feature scaling can significantly affect its predictions.
 
-KNN provides a useful comparison against models that learn explicit decision boundaries.
-
-### Model 03 — Decision Tree
+### 03. Decision Tree
 
 Decision Tree learns a sequence of feature-based rules.
 
-Each split separates observations according to selected feature conditions.
+It can capture nonlinear relationships and provides an interpretable structure.
 
-Decision trees can represent nonlinear relationships and provide an interpretable model structure.
+However, individual decision trees may overfit their training data.
 
-However, an individual tree can be sensitive to changes in training data and may overfit.
+### 04. Random Forest
 
-### Model 04 — Random Forest
-
-Random Forest combines multiple decision trees to produce a classification result.
+Random Forest combines multiple decision trees into an ensemble.
 
 The notebook configures 300 trees.
 
-The ensemble approach can represent complex feature relationships while reducing reliance on the behavior of a single tree.
+The ensemble can capture complex feature relationships and is also used for feature-importance analysis.
 
-Random Forest is also used in the notebook's exploratory feature-importance analysis.
-
-### Model 05 — Support Vector Machine
+### 05. Support Vector Machine
 
 Support Vector Machine learns decision boundaries that separate classes.
 
-The notebook includes an SVM classifier in the comparative modeling workflow.
+Feature scaling is useful because input magnitudes can influence the resulting decision boundaries.
 
-Scaling is included in its pipeline because the magnitude of input features can affect the algorithm's behavior.
+SVM provides a comparison against the linear and tree-based approaches.
 
-SVM provides another approach to multiclass classification alongside linear, tree-based, and distance-based models.
+### 06. Gradient Boosting
 
-### Model 06 — Gradient Boosting
+Gradient Boosting constructs an ensemble of decision trees sequentially.
 
-Gradient Boosting builds an ensemble of decision trees sequentially.
+Each new stage attempts to improve the existing model.
 
-Each new stage attempts to improve the existing ensemble by focusing on errors made by earlier stages.
+This approach can capture nonlinear relationships in structured data.
 
-This method can learn nonlinear relationships between input attributes and disease classes.
+### Model Comparison
 
-Its effectiveness depends on the dataset and the selected configuration.
+| Algorithm              | Learning Approach             | Purpose                        |
+| ---------------------- | ----------------------------- | ------------------------------ |
+| Logistic Regression    | Linear classification         | Baseline model                 |
+| K-Nearest Neighbors    | Distance-based classification | Learn from nearby observations |
+| Decision Tree          | Rule-based learning           | Capture nonlinear patterns     |
+| Random Forest          | Tree ensemble                 | Combine multiple trees         |
+| Support Vector Machine | Margin-based classification   | Learn separating boundaries    |
+| Gradient Boosting      | Sequential tree ensemble      | Improve predictive performance |
 
-### Algorithm Comparison
-
-| Algorithm              | Learning Approach             | Main Purpose                            |
-| ---------------------- | ----------------------------- | --------------------------------------- |
-| Logistic Regression    | Linear classification         | Establish a baseline                    |
-| K-Nearest Neighbors    | Distance-based classification | Learn from similar observations         |
-| Decision Tree          | Rule-based classification     | Capture nonlinear feature relationships |
-| Random Forest          | Tree ensemble                 | Combine multiple decision trees         |
-| Support Vector Machine | Margin-based classification   | Learn separating decision boundaries    |
-| Gradient Boosting      | Sequential tree ensemble      | Improve predictions through boosting    |
-
-The project compares these models using the same training and testing subsets.
-
-No algorithm should be assumed to be the best before the evaluation results are examined.
+The best algorithm must be determined from the actual evaluation results.
 
 ---
 
-# 08. Machine Learning Pipeline
+# 07. Model Training Architecture
 
-## Consistent Preprocessing and Training
+## Building a Consistent Training Workflow
 
-The notebook constructs model pipelines for the six algorithms.
+The notebook uses a stratified train-test split to divide the available observations into training and testing subsets.
 
-For scale-sensitive algorithms, the pipeline includes median imputation followed by standard scaling and classification.
+The split is configured to use 80% of the records for training and 20% for testing.
 
-Tree-based algorithms use median imputation without standard scaling in the configured workflow.
-
-This keeps preprocessing connected to model training and helps ensure that each model receives consistently prepared data.
+Stratification helps preserve approximately the same class distribution across both subsets.
 
 ```mermaid
 flowchart TD
 
-    A["Input Patient Features"] --> B["Median Imputation"]
+    A["Clean Dataset"] --> B["Separate Features and Labels"]
 
-    B --> C{"Model Family"}
+    B --> C["Stratified Train-Test Split"]
 
-    C -->|Scale-Sensitive| D["StandardScaler"]
-    C -->|Tree-Based| E["Continue Without Scaling"]
+    C --> D["Training Data"]
+    C --> E["Testing Data"]
 
-    D --> F["Classification Algorithm"]
-    E --> F
+    D --> F["Fit Preprocessing"]
+    F --> G["Train Classifier"]
 
-    F --> G["Predicted Disease Class"]
+    G --> H["Trained Pipeline"]
 
-    G --> H["Compare With Actual Class"]
-    H --> I["Calculate Evaluation Metrics"]
+    E --> I["Generate Test Predictions"]
+    H --> I
 
-    classDef input fill:#082f49,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
-    classDef processing fill:#172554,stroke:#818cf8,color:#ffffff,stroke-width:2px;
-    classDef model fill:#312e81,stroke:#c4b5fd,color:#ffffff,stroke-width:2px;
-    classDef output fill:#064e3b,stroke:#34d399,color:#ffffff,stroke-width:2px;
+    I --> J["Compare Predictions with Actual Labels"]
+    J --> K["Calculate Metrics"]
 
-    class A input;
-    class B,C,D,E processing;
-    class F,G model;
-    class H,I output;
+    classDef data fill:#082f49,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef training fill:#312e81,stroke:#c4b5fd,color:#ffffff,stroke-width:2px;
+    classDef evaluation fill:#064e3b,stroke:#34d399,color:#ffffff,stroke-width:2px;
+
+    class A,B,C,D,E data;
+    class F,G,H training;
+    class I,J,K evaluation;
 ```
 
-The diagram represents the preprocessing logic used by the notebook. The exact operations for each model are defined in the corresponding Scikit-learn Pipeline.
+### Why Stratification Matters
+
+A multiclass dataset may contain different numbers of observations in each class.
+
+Stratification helps ensure that the training and testing subsets represent the class distribution more consistently.
+
+It does not guarantee that the model will perform equally well on every disease class. That must be evaluated separately.
 
 ---
 
-# 09. Model Evaluation Framework
+# 08. Evaluation Metrics
 
-## Measuring More Than Accuracy
+## Measuring Classification Performance
 
-The project calculates four principal evaluation metrics.
-
-These metrics describe different aspects of multiclass classification performance.
+The notebook evaluates each model using four principal metrics.
 
 ### Accuracy
 
-Accuracy measures the proportion of test observations correctly classified by the model.
+Accuracy measures the proportion of test observations correctly classified.
 
-It provides a general overview of prediction correctness.
-
-However, accuracy alone may hide weak performance on smaller disease classes.
+It provides a general overview of model performance.
 
 ### Macro Precision
 
-Macro precision calculates precision separately for each class and then averages the class-level values equally.
+Macro precision calculates precision for each class and averages the results equally.
 
-This gives each disease class equal weight in the final metric.
+It helps examine how reliable the model's positive predictions are across the six classes.
 
 ### Macro Recall
 
 Macro recall calculates recall separately for each class and averages the results equally.
 
-It helps reveal whether a model identifies the different classes effectively rather than performing well only on more frequent classes.
+It helps evaluate whether the model identifies observations belonging to the different disease classes.
 
 ### Macro F1-Score
 
-Macro F1-score calculates the F1-score for each class and averages those scores equally.
+Macro F1-score calculates the F1-score for each class and averages the scores equally.
 
-The project uses macro F1-score as its primary model-selection metric.
+It is the primary criterion used by the notebook to select the model.
 
-This is useful for a six-class problem because performance across all classes matters.
+### Metrics Table
 
-### Evaluation Summary
+| Metric          | Purpose                         | Preferred Result |
+| --------------- | ------------------------------- | ---------------- |
+| Accuracy        | Overall correctness             | Higher           |
+| Macro Precision | Average class-wise precision    | Higher           |
+| Macro Recall    | Average class-wise recall       | Higher           |
+| Macro F1-Score  | Balanced class-wise performance | Higher           |
 
-| Metric          | What It Measures                                   | Desired Direction |
-| --------------- | -------------------------------------------------- | ----------------- |
-| Accuracy        | Overall classification correctness                 | Higher            |
-| Macro Precision | Average class-wise precision                       | Higher            |
-| Macro Recall    | Average class-wise recall                          | Higher            |
-| Macro F1-score  | Average class-wise balance of precision and recall | Higher            |
-
-The notebook calculates these metrics on the held-out test set.
-
-Their actual values depend on executing the notebook with the supplied dataset.
+No performance numbers are included here because they should come from the actual notebook execution.
 
 ---
 
-# 10. Model Selection Engine
+# 09. Model Selection Engine
 
-## Selecting the Production Candidate
+## Identifying the Best-Performing Candidate
 
-The project selects a production candidate using the highest macro F1-score on the held-out test set.
+The notebook ranks the trained models by macro F1-score.
 
-When two models have the same macro F1-score, accuracy is used as the secondary ranking criterion.
+If models have the same macro F1-score, accuracy is used as the secondary ranking criterion.
 
-The selected model is then used for subsequent classification reports, confusion-matrix analysis, and example predictions.
-
-### Selection Workflow
+The selected candidate is then used for further analysis.
 
 ```mermaid
 flowchart TD
 
-    A["Six Trained Models"] --> B["Generate Test Predictions"]
+    A["Six Trained Models"] --> B["Generate Predictions"]
 
     B --> C["Calculate Accuracy"]
     B --> D["Calculate Macro Precision"]
     B --> E["Calculate Macro Recall"]
-    B --> F["Calculate Macro F1"]
+    B --> F["Calculate Macro F1-Score"]
 
     C --> G["Build Comparison Table"]
     D --> G
     E --> G
     F --> G
 
-    G --> H["Rank by Macro F1"]
-    H --> I["Use Accuracy as Tie-Breaker"]
+    G --> H["Rank Models by Macro F1"]
+    H --> I["Break Ties Using Accuracy"]
 
     I --> J["Select Best Candidate"]
 
@@ -642,291 +531,188 @@ flowchart TD
     J --> M["Example Predictions"]
 
     classDef models fill:#312e81,stroke:#c4b5fd,color:#ffffff,stroke-width:2px;
-    classDef evaluation fill:#082f49,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
-    classDef selected fill:#064e3b,stroke:#34d399,color:#ffffff,stroke-width:2px;
+    classDef metrics fill:#082f49,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
+    classDef output fill:#064e3b,stroke:#34d399,color:#ffffff,stroke-width:2px;
 
     class A,B models;
-    class C,D,E,F,G,H,I evaluation;
-    class J,K,L,M selected;
+    class C,D,E,F,G,H,I metrics;
+    class J,K,L,M output;
 ```
 
-### Why Macro F1-Score Is Used
+### Important Evaluation Note
 
-The target contains six disease classes.
+The notebook uses the held-out test-set metrics for model selection.
 
-A model could perform well on common classes but struggle with less frequent classes.
+Because the same test set is used to select the best candidate, its reported performance should not be treated as a completely independent estimate of the final selected model's generalization.
 
-Macro F1-score gives each class equal weight, making it useful for examining performance across the full classification problem.
-
-The selection criterion is therefore aligned with the project's objective of comparing performance across the six classes.
-
-The selected model remains a project-level candidate rather than a clinically approved diagnostic model.
+A separate validation set or nested cross-validation would provide a stronger evaluation methodology.
 
 ---
 
-# 11. Performance Analysis and Model Interpretation
+# 10. Performance Analysis
 
-## Understanding the Model's Decisions
+## Understanding the Results
 
-A useful classification project should investigate more than a single summary score.
+The notebook includes several evaluation and interpretation steps.
 
-The notebook includes several methods for examining model performance.
+### Model Comparison
 
-### Model Comparison Chart
-
-The notebook generates a bar chart comparing macro F1-scores across the six algorithms.
-
-This visualization makes it easier to identify which models perform better under the selected metric.
+Compare the macro F1-scores of all six algorithms to understand their relative performance.
 
 ### Accuracy Versus Macro F1
 
-A second visualization compares accuracy and macro F1-score.
-
-Differences between these metrics can help identify cases where overall accuracy does not fully reflect class-wise performance.
+Comparing accuracy with macro F1-score helps identify situations where overall accuracy does not reflect performance across all classes.
 
 ### Classification Report
 
-The selected model's classification report provides class-level precision, recall, F1-score, and support.
+The classification report contains precision, recall, F1-score, and support for each disease class.
 
-Support indicates the number of test observations belonging to each class.
-
-These results help reveal whether the model performs consistently across the different disease categories.
+Support represents the number of actual test observations belonging to that class.
 
 ### Confusion Matrix
 
-The confusion matrix compares actual classes with predicted classes.
+The confusion matrix shows the relationship between actual and predicted classes.
 
-Correct predictions appear along the main diagonal, while off-diagonal entries represent classification errors.
+Correct predictions appear on the main diagonal.
 
-The matrix can help identify disease classes that the model frequently confuses.
+Off-diagonal entries represent errors.
 
-### Class-Wise Performance
-
-The notebook extracts precision, recall, and F1-score for each disease class.
-
-This is important because an overall metric can hide weak results for individual categories.
+This helps identify which disease classes the model confuses.
 
 ### Feature Importance
 
-The notebook fits an explanatory Random Forest and examines feature importance.
+The notebook uses a Random Forest to investigate feature importance.
 
-The analysis displays the most important features according to the fitted tree-based model.
+The results can help identify which attributes the fitted model relies on most strongly.
 
-Feature importance can help identify variables that contribute to predictive decisions.
+Feature importance does not prove that a feature causes a disease, and the results can be affected by correlations between features.
 
-However, feature importance does not establish medical causation, and importance estimates may be affected by feature correlations and the model's characteristics.
+### Results Dashboard
 
----
+| Model                  | Accuracy     | Macro Precision | Macro Recall | Macro F1     |
+| ---------------------- | ------------ | --------------- | ------------ | ------------ |
+| Logistic Regression    | Run notebook | Run notebook    | Run notebook | Run notebook |
+| K-Nearest Neighbors    | Run notebook | Run notebook    | Run notebook | Run notebook |
+| Decision Tree          | Run notebook | Run notebook    | Run notebook | Run notebook |
+| Random Forest          | Run notebook | Run notebook    | Run notebook | Run notebook |
+| Support Vector Machine | Run notebook | Run notebook    | Run notebook | Run notebook |
+| Gradient Boosting      | Run notebook | Run notebook    | Run notebook | Run notebook |
 
-# 12. Performance Intelligence Dashboard
-
-## Model Results at a Glance
-
-The notebook calculates the final metrics during execution.
-
-The following dashboard is a template for documenting those results. It deliberately avoids presenting unverified numerical performance values.
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/CLASSIFICATION-6_DISEASE_CLASSES-0891B2?style=for-the-badge&labelColor=020617" alt="Six Disease Classes"/>
-<img src="https://img.shields.io/badge/INPUT_FEATURES-34-2563EB?style=for-the-badge&labelColor=020617" alt="34 Input Features"/>
-<img src="https://img.shields.io/badge/ALGORITHMS-6-7C3AED?style=for-the-badge&labelColor=020617" alt="Six Algorithms"/>
-<img src="https://img.shields.io/badge/MODEL_SELECTION-MACRO_F1-059669?style=for-the-badge&labelColor=020617" alt="Macro F1 Model Selection"/>
-
-</div>
-
-### Final Model Metrics
-
-| Performance Indicator | Actual Result         |
-| --------------------- | --------------------- |
-| Selected model        | Generated by notebook |
-| Test accuracy         | Generated by notebook |
-| Macro precision       | Generated by notebook |
-| Macro recall          | Generated by notebook |
-| Macro F1-score        | Generated by notebook |
-
-### Six-Model Comparison
-
-| Model                  |     Accuracy | Macro Precision | Macro Recall |     Macro F1 |
-| ---------------------- | -----------: | --------------: | -----------: | -----------: |
-| Logistic Regression    | Run notebook |    Run notebook | Run notebook | Run notebook |
-| K-Nearest Neighbors    | Run notebook |    Run notebook | Run notebook | Run notebook |
-| Decision Tree          | Run notebook |    Run notebook | Run notebook | Run notebook |
-| Random Forest          | Run notebook |    Run notebook | Run notebook | Run notebook |
-| Support Vector Machine | Run notebook |    Run notebook | Run notebook | Run notebook |
-| Gradient Boosting      | Run notebook |    Run notebook | Run notebook | Run notebook |
-
-Replace the placeholders with the actual values displayed by `results_ranked` after executing the notebook.
-
-### Confusion Matrix Analysis
-
-The confusion matrix should be reviewed alongside the summary metrics.
-
-For example, a model may correctly identify most examples of one disease while repeatedly confusing two other disease classes.
-
-That behavior may not be obvious from accuracy alone.
-
-### Feature Importance Analysis
-
-The feature-importance chart provides an additional view of which attributes the explanatory Random Forest uses most heavily.
-
-The interpretation should remain exploratory rather than causal.
+Replace these placeholders with the values generated by the notebook.
 
 ---
 
-# 13. Example Prediction Workflow
+# 11. Prediction Workflow
 
-## From Patient Features to Predicted Class
+## From Input Features to Predicted Class
 
-The notebook demonstrates predictions on held-out test records.
+The selected model processes the input feature values and predicts one of the six class IDs.
 
-It compares the predicted disease class with the known class label for each example.
-
-This allows the model's output to be inspected alongside the corresponding target value.
-
-### Prediction Architecture
+The notebook maps class IDs to their corresponding disease names and compares predictions with the actual test labels.
 
 ```mermaid
 flowchart LR
 
-    A["Patient Feature Record"] --> B["Trained Model Pipeline"]
+    A["Input Feature Record"] --> B["Trained Model Pipeline"]
 
     B --> C["Predicted Class ID"]
     C --> D["Disease Name Mapping"]
 
-    D --> E["Display Predicted Disease"]
+    D --> E["Predicted Disease"]
 
-    F["Actual Test Label"] --> G["Prediction Comparison"]
-
+    F["Actual Test Label"] --> G["Compare Results"]
     E --> G
 
-    G --> H["Correct or Incorrect Prediction"]
+    G --> H["Correct or Incorrect"]
 
     classDef input fill:#082f49,stroke:#22d3ee,color:#ffffff,stroke-width:2px;
-    classDef prediction fill:#312e81,stroke:#c4b5fd,color:#ffffff,stroke-width:2px;
+    classDef model fill:#312e81,stroke:#c4b5fd,color:#ffffff,stroke-width:2px;
     classDef output fill:#064e3b,stroke:#34d399,color:#ffffff,stroke-width:2px;
 
     class A,F input;
-    class B,C,D prediction;
+    class B,C,D model;
     class E,G,H output;
 ```
 
-### Example Prediction Table
+### Example Prediction Fields
 
-The notebook produces a table containing the actual class ID, actual disease name, predicted class ID, and predicted disease name.
+| Field               | Meaning                |
+| ------------------- | ---------------------- |
+| `Actual_Class`      | Actual class ID        |
+| `Actual_Disease`    | Actual disease name    |
+| `Predicted_Class`   | Predicted class ID     |
+| `Predicted_Disease` | Predicted disease name |
 
-| Field               | Description                                   |
-| ------------------- | --------------------------------------------- |
-| `Actual_Class`      | Known class ID from the test dataset          |
-| `Actual_Disease`    | Disease name associated with the actual class |
-| `Predicted_Class`   | Class ID predicted by the selected model      |
-| `Predicted_Disease` | Disease name associated with the prediction   |
-
-The example predictions are taken from held-out test records rather than representing a validated clinical diagnosis for a new patient.
+The notebook's example predictions demonstrate classification on held-out test observations. They do not establish diagnostic reliability for new patients.
 
 ---
 
-# 14. Healthcare Decision-Support Framework
+# 12. Responsible AI in Healthcare
 
-## Supporting Clinical Review, Not Replacing It
+## Supporting Analysis Without Replacing Medical Expertise
 
-The notebook includes suggestions for doctors on how a classification model might be used as an early-support tool.
+Healthcare machine learning requires careful interpretation.
 
-Any practical application must recognize the limitations of the dataset, model, and evaluation process.
+A model prediction is not equivalent to a confirmed medical diagnosis.
 
-### Suggested Workflow
+### Responsible Use Principles
 
-**Step 1 — Record the available clinical information**
+**Validate the data**
 
-Collect and document the relevant patient features using appropriate clinical procedures.
+Ensure input features are complete and represented correctly.
 
-**Step 2 — Validate the input data**
+**Review predictions carefully**
 
-Check that required features are present and correctly represented.
+Consider predictions alongside appropriate clinical evidence.
 
-**Step 3 — Generate a preliminary model prediction**
+**Investigate errors**
 
-Use the trained pipeline to obtain a predicted class from the available features.
+Review false positives, false negatives, and confusion between disease classes.
 
-**Step 4 — Review the result**
+**Evaluate generalization**
 
-Consider the prediction alongside the patient's history, examination, and other relevant evidence.
+Test the model on independent data before considering real-world use.
 
-**Step 5 — Investigate disagreements**
+**Protect patient information**
 
-If the model prediction differs from the clinical assessment, review the case rather than automatically accepting the model's result.
+Use appropriate privacy and security controls for medical data.
 
-**Step 6 — Obtain appropriate specialist assessment**
+**Maintain human oversight**
 
-Use established clinical procedures and specialist review when required.
+Clinical decisions must remain under appropriate medical supervision.
 
-**Step 7 — Monitor model performance**
+### Clinical Limitation
 
-Review false positives, false negatives, and class-wise metrics if the system is evaluated in a properly governed setting.
+This project is an educational machine learning exercise.
 
-**Step 8 — Revalidate before broader use**
-
-Any future deployment would require appropriate external validation and ongoing monitoring.
-
-### Important Clinical Limitation
-
-The model has been evaluated on a limited dataset and has not been established as a clinically validated diagnostic system.
-
-Its predictions must not be used as a substitute for clinical examination, histopathological assessment, specialist judgment, or other appropriate medical evaluation.
+The model has not been established as a clinically validated diagnostic system and must not replace professional medical assessment.
 
 ---
 
-# 15. Challenges and Engineering Solutions
+# 13. Technical Challenges and Solutions
 
-## Problems Addressed During Development
+## Engineering Decisions Behind the Workflow
 
-### Challenge 01 — Missing Age Values
-
-The dataset contains `?` markers in the Age column.
-
-**Solution:** Convert these markers into missing numerical values and impute the median age.
-
-### Challenge 02 — Different Feature Scales
-
-Age may have a larger numerical range than the clinical and histopathological features.
-
-**Solution:** Apply StandardScaler within the pipelines for algorithms that benefit from feature scaling.
-
-### Challenge 03 — Multiclass Classification
-
-The model must distinguish among six target classes rather than only two.
-
-**Solution:** Train multiclass-capable classifiers and evaluate performance across all six classes.
-
-### Challenge 04 — Unequal Class Frequencies
-
-The target classes do not necessarily contain equal numbers of observations.
-
-**Solution:** Use stratified train-test splitting and macro-averaged precision, recall, and F1-score.
-
-### Challenge 05 — Limited Dataset Size
-
-The project description identifies only a few hundred patient records.
-
-**Solution:** Use a consistent model comparison workflow and interpret the results cautiously. Further validation on independent data would be needed to establish generalization.
-
-### Challenge 06 — Consistent Preprocessing
-
-Different algorithms can require different preprocessing operations.
-
-**Solution:** Build Scikit-learn pipelines that combine imputation, scaling where appropriate, and model training.
-
-### Challenge 07 — Model Interpretability
-
-A single accuracy score does not explain the kinds of errors made by a classifier.
-
-**Solution:** Generate a classification report, confusion matrix, class-wise metrics, and feature-importance analysis.
+| Challenge                   | Approach                                                  |
+| --------------------------- | --------------------------------------------------------- |
+| Missing age markers         | Convert `?` to missing values and impute                  |
+| Duplicate observations      | Check and remove duplicate rows when present              |
+| Different feature scales    | Use StandardScaler where appropriate                      |
+| Multiple disease classes    | Train multiclass classification models                    |
+| Unequal class frequencies   | Use stratified splitting and macro metrics                |
+| Consistent preprocessing    | Use Scikit-learn pipelines                                |
+| Comparing different models  | Apply a common evaluation framework                       |
+| Understanding errors        | Analyze confusion matrices                                |
+| Interpreting model behavior | Examine feature importance                                |
+| Limited dataset size        | Document limitations and recommend independent validation |
 
 ---
 
-# 16. Repository Structure
+# 14. Repository Structure
 
-## A Reproducible Notebook-Based Project
+## Existing Project Files
+
+The following is a simple example of how your repository may look.
 
 ```text
 PRCP-1027-Skin-Disorder-Prediction/
@@ -936,41 +722,23 @@ PRCP-1027-Skin-Disorder-Prediction/
 |-- dataset_35_dermatology (1).csv
 |
 |-- README.md
-|
-|-- assets/
-|   |
-|   |-- project-banner.png
-|   |-- class-distribution.png
-|   |-- age-analysis.png
-|   |-- clinical-feature-analysis.png
-|   |-- histopathological-analysis.png
-|   |-- model-comparison.png
-|   |-- confusion-matrix.png
-|   |-- feature-importance.png
-|
-|-- requirements.txt
-|
-|-- .gitignore
-|
 ```
 
-This is a recommended repository organization, not a claim that every file and folder already exists.
+**Important:** This is an example, not a verified list of your uploaded files. Keep the exact filenames that are already present in your GitHub repository.
 
-The notebook filename shown above is a cleaned example. Use the actual notebook filename present in your GitHub repository.
+You do not need to create an `assets` folder or upload separate chart images for the animated text and Mermaid diagrams in this README.
 
-The dataset filename must match the name expected by the notebook or the file-discovery logic.
-
-The `assets` folder is optional. It can contain exported charts from the notebook to make the GitHub README more visually informative.
+The notebook can generate its charts when you execute its cells.
 
 ---
 
-# 17. Installation and Execution
+# 15. Installation and Execution
 
-## Run the Project Locally
+## Run the Notebook Locally
 
 ### Step 1 — Clone Your Repository
 
-Replace the placeholder with the actual URL of your GitHub repository.
+Replace the placeholder with your actual GitHub repository URL.
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
@@ -990,147 +758,118 @@ python -m pip install numpy pandas matplotlib scikit-learn jupyter
 
 ### Step 4 — Check the Dataset
 
-Ensure that the dermatology CSV file is in the expected working directory.
+Ensure that the CSV file is available in the location expected by the notebook.
 
-The notebook attempts to locate a CSV filename containing `dermatology` if its primary expected filename is not found.
+If the notebook expects a particular filename, use that exact filename.
 
-### Step 5 — Start Jupyter Notebook
+### Step 5 — Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-### Step 6 — Open the Notebook
+### Step 6 — Execute the Notebook
 
-Open the project notebook and execute the cells sequentially.
+Open the project notebook and execute the cells in order.
 
-### Step 7 — Review the Results
+### Step 7 — Review the Outputs
 
-Inspect the generated outputs, including:
-
-* Dataset information and cleaning results.
-* Missing-value and duplicate checks.
-* Disease class distributions.
-* Age analysis.
-* Clinical and histopathological feature analysis.
-* Model comparison tables.
-* Accuracy and macro F1 visualizations.
-* Classification report.
-* Confusion matrix.
-* Class-wise performance.
-* Feature importance.
-* Example predictions.
-* Final production-candidate summary.
-
-The notebook's output cells provide the actual evaluation results.
+Review the generated data analysis, model comparison table, evaluation metrics, confusion matrix, feature importance, and example predictions.
 
 ---
 
-# 18. Future Development
+# 16. Future Development
 
-## Advancing Toward a More Robust Classification System
+## Expanding the Project
 
-The existing notebook establishes a complete educational machine learning workflow. The following improvements could extend its analytical depth.
+### Phase 01 — Stronger Validation
 
-### Phase One — Independent Validation
+Use cross-validation or a separate validation set to improve model selection.
 
-Evaluate the selected model on an independent dataset to investigate whether its performance generalizes beyond the original train-test split.
+### Phase 02 — Independent Testing
 
-### Phase Two — Stronger Model Selection
+Evaluate the selected model on independent data to investigate generalization.
 
-Use a separate validation set or nested cross-validation for model selection.
+### Phase 03 — Model Explainability
 
-This would help avoid relying on the same test set for both selecting and reporting the best-performing model.
+Investigate explainability methods to understand the relationship between input features and predictions.
 
-### Phase Three — Model Explainability
+### Phase 04 — Prediction Confidence
 
-Investigate additional explainability methods to understand how different features influence predictions.
+Explore probability calibration and uncertainty reporting.
 
-Interpretation should account for feature correlations and the limitations of the chosen explanation method.
+### Phase 05 — Interactive Application
 
-### Phase Four — Prediction Confidence
+Build an interactive interface using Streamlit to demonstrate the classification workflow.
 
-Investigate calibrated class probabilities and uncertainty-aware reporting.
+### Phase 06 — Automated Testing
 
-A predicted class alone does not communicate the uncertainty associated with the prediction.
+Add tests for input validation, preprocessing, prediction outputs, and model loading.
 
-### Phase Five — Interactive Application
+### Phase 07 — Responsible Deployment
 
-Build a Streamlit interface that accepts validated feature inputs and displays the model's predicted class alongside appropriate warnings and limitations.
-
-### Phase Six — Automated Testing
-
-Create tests for input validation, preprocessing consistency, prediction output structure, and model loading.
-
-### Phase Seven — Responsible Deployment Research
-
-Before any clinical use, investigate data privacy, bias, external validation, clinical workflow integration, monitoring, and applicable regulatory requirements.
+Investigate privacy, fairness, external validation, and clinical requirements before considering practical healthcare applications.
 
 ---
 
-# 19. Technical Skills Demonstrated
+# 17. Technical Skills Demonstrated
 
-## Data Science and Machine Learning Competencies
+## Data Science Competencies
 
-| Skill Category       | Techniques Demonstrated                           |
-| -------------------- | ------------------------------------------------- |
-| Programming          | Python                                            |
-| Data manipulation    | Pandas and NumPy                                  |
-| Data cleaning        | Missing-value conversion and imputation           |
-| Exploratory analysis | Statistical summaries and feature analysis        |
-| Data visualization   | Matplotlib                                        |
-| Feature preparation  | Input-target separation                           |
-| Machine learning     | Six classification algorithms                     |
-| Preprocessing        | SimpleImputer and StandardScaler                  |
-| Pipeline engineering | Scikit-learn Pipeline                             |
-| Model evaluation     | Accuracy, macro precision, macro recall, macro F1 |
-| Error analysis       | Confusion matrix                                  |
-| Model interpretation | Feature importance                                |
-| Prediction analysis  | Actual-versus-predicted test examples             |
-| Documentation        | Markdown and Mermaid                              |
-| Reproducibility      | Notebook-based workflow                           |
-
----
-
-# 20. Project Conclusion
-
-## Converting Dermatology Data Into Classification Insights
-
-The Skin Disorder Prediction project demonstrates an end-to-end data science workflow for analyzing a dermatology dataset and comparing multiclass machine learning models.
-
-The notebook examines patient records, addresses missing age values, checks duplicate observations, and explores clinical and histopathological feature patterns.
-
-It then trains six classification algorithms using a stratified train-test split.
-
-The models are compared using accuracy, macro precision, macro recall, and macro F1-score. The candidate with the highest test-set macro F1-score is selected for further analysis.
-
-The notebook also provides class-wise performance metrics, a confusion matrix, feature-importance analysis, and example predictions.
-
-Together, these components demonstrate how data preparation, machine learning, evaluation, and model interpretation can be combined in a structured project.
-
-The central lesson is that a useful classification system must be assessed across all target classes, not only through a single accuracy value.
-
-Because the project involves healthcare data, its findings should be treated as educational machine learning results rather than evidence of clinical diagnostic reliability.
-
-Independent validation, appropriate clinical evaluation, and specialist oversight would be necessary before any real-world medical application.
+| Category             | Skills                                     |
+| -------------------- | ------------------------------------------ |
+| Programming          | Python                                     |
+| Data Manipulation    | Pandas, NumPy                              |
+| Data Cleaning        | Missing-value handling, duplicate checks   |
+| Exploratory Analysis | Statistical summaries and feature analysis |
+| Visualization        | Matplotlib                                 |
+| Machine Learning     | Six classification algorithms              |
+| Preprocessing        | SimpleImputer, StandardScaler              |
+| Pipeline Engineering | Scikit-learn Pipeline                      |
+| Model Evaluation     | Accuracy, precision, recall, F1-score      |
+| Error Analysis       | Confusion matrix                           |
+| Interpretation       | Feature importance                         |
+| Prediction Analysis  | Actual versus predicted labels             |
+| Documentation        | Markdown and Mermaid                       |
+| Development          | Jupyter Notebook                           |
 
 ---
 
-# 21. About the Developer
+# 18. Project Conclusion
+
+## Transforming Dermatology Data Into Predictive Insights
+
+The Skin Disorder Prediction project demonstrates an end-to-end machine learning workflow for a six-class dermatology classification problem.
+
+The workflow begins with data inspection and preprocessing, continues through exploratory analysis and model training, and concludes with comparative evaluation and model interpretation.
+
+Six machine learning algorithms are evaluated using accuracy, macro precision, macro recall, and macro F1-score.
+
+The selected candidate is then investigated through class-wise evaluation, confusion-matrix analysis, feature importance, and example predictions.
+
+The project demonstrates the importance of consistent preprocessing, fair model comparison, and evaluation across all target classes.
+
+It also highlights an essential principle of healthcare AI: predictive performance alone is not sufficient to establish clinical reliability.
+
+Independent validation and appropriate clinical oversight are necessary before considering real-world medical applications.
+
+---
+
+# 19. About the Developer
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=25&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=750&lines=GOVARDHAN+GOUD;ASPIRING+DATA+SCIENTIST;MACHINE+LEARNING+ENTHUSIAST;BUILDING+REAL-WORLD+AI+PROJECTS;LEARNING+THROUGH+PRACTICAL+IMPLEMENTATION" alt="Animated Developer Profile"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&duration=2500&pause=600&color=22D3EE&center=true&vCenter=true&width=800&lines=GOVARDHAN+GOUD;ASPIRING+DATA+SCIENTIST;MACHINE+LEARNING+ENTHUSIAST;BUILDING+PRACTICAL+AI+PROJECTS;LEARNING+BY+BUILDING" alt="Animated Developer Introduction"/>
 
 <br/><br/>
 
 <a href="https://github.com/govardhan-goud123">
-<img src="https://img.shields.io/badge/GitHub-EXPLORE_MY_PROJECTS-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=020617" alt="Explore GitHub Projects"/>
+<img src="https://img.shields.io/badge/GITHUB-EXPLORE_MY_PROJECTS-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=020617" alt="GitHub Profile"/>
 </a>
 
 <br/><br/>
 
-Interested in Data Science, Artificial Intelligence, Machine Learning, Natural Language Processing, predictive analytics, and practical AI applications.
+Interested in Data Science, Artificial Intelligence, Machine Learning, Natural Language Processing, and practical AI applications.
 
 </div>
 
@@ -1138,10 +877,10 @@ Interested in Data Science, Artificial Intelligence, Machine Learning, Natural L
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,25:0891b2,50:312e81,75:172554,100:020617&height=190&section=footer&animation=fadeIn" alt="Animated Neon Footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,25:312e81,55:172554,100:020617&height=180&section=footer&animation=fadeIn" alt="Animated Neon Footer"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=22D3EE&center=true&vCenter=true&width=700&lines=DATA+INTO+INTELLIGENCE;FEATURES+INTO+PREDICTIONS;MACHINE+LEARNING+INTO+INSIGHTS" alt="Animated Closing Message"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2400&pause=700&color=22D3EE&center=true&vCenter=true&width=750&lines=DATA+INTO+INTELLIGENCE;MODELS+INTO+INSIGHTS;INNOVATION+THROUGH+MACHINE+LEARNING" alt="Animated Closing Text"/>
 
-**ENGINEER THE DATA. UNDERSTAND THE MODEL. RESPECT THE EVIDENCE.**
+**EXPLORE THE DATA. TRAIN THE MODEL. UNDERSTAND THE RESULTS.**
 
 </div>
